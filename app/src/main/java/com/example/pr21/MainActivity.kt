@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         dbHelper = DatabaseHelper(this)
         setContent {
-            FeskovPR22101Theme {
+            BulatovPR22101Theme {
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
                     UserInputScreen(dbHelper)
                 }
